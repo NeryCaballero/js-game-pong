@@ -1,0 +1,49 @@
+body {
+    background-color: #07071A;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 12px;
+    color: #BBB7F6;
+}
+
+nav a {
+    margin: 40px 20px;
+    border: 1px solid #BBB7F6;
+    text-decoration: none;
+    padding: 15px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+nav a:visited {
+    color: #BBB7F6;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFF78;
+    border: 1px solid #FFFF78;
+}
+
+canvas {
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px; 
+
+    box-shadow: 0px 0px 9px 1px rgba(105,8,178,0.1);
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(105,8,178,0.1);
+    -moz-box-shadow: 0px 0px 9px 1px rgba(105,8,178,0.1);
+                
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+            
+p {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: -84px;
+    transform: rotate(-90deg);
+}
