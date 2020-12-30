@@ -10,7 +10,7 @@ let xBall = canvas.width/2;                                                     
 let yBall = canvas.height/2;
 let rBall = 20;                                                                              // ball size
 
-let xBallSpeed = 4; 
+let xBallSpeed = 5; 
 let yBallSpeed = xBallSpeed / 2;
 
 let rightEdge = canvas.width;
@@ -124,9 +124,9 @@ function rightPaddleMovement() {
     let margin = PADDLE_SIZE * 0.4
 
     if (paddle2yCenter < yBall-margin){                                                                                 // if the center of the paddle is below the y position of the ball 
-        paddle2y+=2;                                                                                                    // move the paddle down
+        paddle2y+=4;                                                                                                    // move the paddle down
     } else if (paddle2yCenter > yBall+margin){                                                                          // else if the center of the paddle is above the y position of the ball
-        paddle2y -=2;                                                                                                   // move the paddle up
+        paddle2y -=4;                                                                                                   // move the paddle up
     }
 }
 
